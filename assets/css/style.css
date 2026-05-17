@@ -44,6 +44,25 @@ button {
     font-weight: 600;
 }
 
+.heading {
+    margin-top: 18px;
+    color: #0d1111;
+    font-weight: 700;
+}
+
+.heading.hlv1 {
+    width: 458px;
+    font-size: 6.2rem;
+    line-height: 1.16; /* 116.129% */
+}
+
+.heading.hlv2 {
+    width: 577px;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33; /* 133.333% */
+}
+
 .btn:hover {
     opacity: 0.7;
     cursor: pointer;
@@ -54,12 +73,27 @@ button {
     font-weight: 400;
 }
 
-.desc.lv1 {
+.desc.dlv1 {
     margin-top: 46px;
     line-height: 1.78; /* 177.778% */
     font-size: 1.8rem;
 }
 
+.desc.dlv2 {
+    margin-top: 18px;
+    width: 590px;
+    font-size: 1.8rem;
+}
+
+.desc.dlv3 {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.68;
+}
+
+.desc.w {
+    width: var(--desc-w, 168px);
+}
 /* ======================HEADER======================= */
 .header {
     padding: 42px 0 0;
@@ -145,15 +179,6 @@ button {
     font-weight: 400;
 }
 
-.hero .hero-left .heading {
-    width: 458px;
-    margin-top: 18px;
-    color: #0d1111;
-    font-size: 6.2rem;
-    font-weight: 700;
-    line-height: 1.16; /* 116.129% */
-}
-
 .hero .hero-left .act-btn {
     display: flex;
     align-items: center;
@@ -186,13 +211,13 @@ button {
 }
 /* INFO BOOKS */
 .hero .hero-right .info-books {
+    position: absolute;
+    left: 25px;
+    top: 149px;
     display: flex;
     align-items: center;
     gap: 16px;
     padding: 17px 25px 18px;
-    position: absolute;
-    left: 25px;
-    top: 149px;
     background-color: #fff;
     border-radius: 18px;
     background: #fefefd;
@@ -244,10 +269,10 @@ button {
 }
 /* INFO USERS */
 .hero .hero-right .info-users {
-    padding: 17px 35px;
     position: absolute;
     right: 45px;
     bottom: 41px;
+    padding: 17px 35px;
     width: 207px;
     border-radius: 24px;
     background: #fefefd;
@@ -272,4 +297,36 @@ button {
 
 .hero .hero-right .avatar:first-child {
     margin-left: 0px;
+}
+/* ======================FEATURES======================= */
+.features {
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.features .features-body {
+    width: 1024px;
+}
+
+.features .features-top .text {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .features-list {
+    margin-top: 80px;
+    display: flex;
+    gap: 209px;
+}
+
+.features .features-list .item {
+    width: calc(100% / 3);
+}
+
+.features .features-list .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
 }
