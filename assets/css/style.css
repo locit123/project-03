@@ -94,6 +94,12 @@ button {
     line-height: 1.6;
 }
 
+.desc.dlv5 {
+    margin-top: 27px;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
 .desc.w {
     width: var(--desc-w, 168px);
 }
@@ -455,4 +461,110 @@ button {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
+}
+/* ======================FEEDBACK======================= */
+.feedback {
+    margin-top: 164px;
+    padding: 50px 0;
+}
+
+.feedback .feedback-body {
+    display: flex;
+    height: 481px;
+}
+
+.feedback .feedback-body .feedback-left {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.feedback .feedback-left .sub-text {
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.feedback .feedback-left .sub-text span {
+    color: #070707;
+}
+
+.feedback .feedback-left .act-btn {
+    margin-top: 52px;
+    display: flex;
+    gap: 30px;
+}
+
+.feedback .feedback-left .act-btn button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback .feedback-body .feedback-right {
+    width: 58%;
+    position: relative;
+}
+
+.feedback .feedback-right .avatar-pig {
+    width: 235px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 171px;
+    transform: translateY(-50%);
+}
+
+.feedback .feedback-right .avatar.small {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .feedback-right .avatar.adjust {
+    width: var(--w-adjust, 92px);
+    height: var(--h-adjust, 92px);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* POSITION AVATAR*/
+.feedback .feedback-right .adjust.position1 {
+    position: absolute;
+    left: 144px;
+    top: 0px;
+}
+
+.feedback .feedback-right .adjust.position2 {
+    position: absolute;
+    right: 0;
+    top: 19px;
+}
+
+.feedback .feedback-right .small.position3 {
+    position: absolute;
+    left: 0;
+    top: 258px;
+}
+
+.feedback .feedback-right .small.position4 {
+    position: absolute;
+    left: 212px;
+    bottom: 0;
+}
+
+.feedback .feedback-right .small.position5 {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
 }
