@@ -588,3 +588,49 @@ button {
 .started .started-row .started-left {
     width: 71%;
 }
+
+/* ======================Footer======================= */
+.footer {
+    padding: 131px 0 50px;
+}
+
+.footer .footer-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .footer-row .sub-title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .footer-row .footer-list {
+    margin-top: 26px;
+}
+
+.footer .footer-row:last-child .footer-list {
+    margin-top: 0;
+}
+
+.footer .footer-row .footer-list li {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.footer .footer-row .footer-list a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
