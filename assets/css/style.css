@@ -393,7 +393,8 @@ button {
 
 .popular .popular-list .item {
     width: calc(100% / 3);
-    height: 517px;
+    padding-bottom: 124px;
+    /* height: 517px; */
     position: relative;
 }
 
